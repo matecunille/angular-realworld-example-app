@@ -1,0 +1,7 @@
+services:
+  angular-conduit:
+    image: ghcr.io/matecunille/angular-conduit:latest
+    container_name: angular-conduit
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
